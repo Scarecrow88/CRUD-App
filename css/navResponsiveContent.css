@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-VariableFont.ttf');
+}
+.bodybox {
+    padding-top: 90px;
+    font-family: 'Roboto';
+    background-image: url(../img/Wallpaper5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bodybox::-webkit-scrollbar {
+    width: 10px;
+}
+.bodybox::-webkit-scrollbar-track {
+    background-color: #759b62;
+    border-radius: 5px;
+}
+.bodybox::-webkit-scrollbar-thumb {
+    background-color: #093129;
+    border-radius: 5px;
+}
+.navheader {
+    height: 80px;
+    background-color: #1b4433;
+    box-shadow: 0 3px 18px black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbox {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1292px;
+}
+.navlogo, .navmenuitem a {
+    color: #759b62;
+    text-decoration: none;
+}
+.navlogo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+@media screen and (max-width: 1093px) {
+    .navbox {
+        margin-left: 10px;
+    }
+    .navlogo {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 1093px) {
+    .navbox {
+        margin-left: 10px;
+    }
+    .navlogo {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 966px) {
+    .navbox {
+        margin-left: 10px;
+    }
+    .navlogo {
+        font-size: 23px;
+        padding: 28px 24px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 934px) {
+    .bodybox {
+        padding-top: 70px;
+    }
+    .navheader {
+        height: 60px;
+    }
+    .navbox {
+        margin-left: 20px;
+    }
+    .navlogo {
+        height: 60px;
+        padding-top: 13px;
+        font-size: 23px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 455px) {
+    .navlogo {
+        padding-top: 18px;
+    }
+}
