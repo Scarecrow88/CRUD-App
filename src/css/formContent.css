@@ -11,7 +11,7 @@ main {
 }
 .databox {
     width: 480px;
-    height: max-content;
+    height: 387px;
     background-color: #1b4433;
     padding: 40px;
     margin: 20px auto;
@@ -80,15 +80,15 @@ main {
     .databox {
         margin-top: 30px;
     }
-    main {
-        display: block;
-        min-height: 50vh;
-    }
 }
 @media screen and (max-width: 768px) {
     .databox {
         width: 410px;
+        height: 365px;
         margin: 20px auto; 
+    }
+    main {
+        display: block;
     }
     #formtask h2 {
         font-size: 1.2rem;

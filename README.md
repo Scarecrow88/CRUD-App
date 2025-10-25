@@ -6,7 +6,7 @@
 - Eliminar registros
 - Validaciones básicas en formularios
 ## Tecnologías utilizadas
-- **Frontend:** JavaScript, HTML, CSS
+- **Frontend:** React.js, JavaScript, HTML, CSS
 ## Arquitecturas
 - Monolitica
 > Vista 1 de la pagina <br>
